@@ -1,9 +1,9 @@
 Link extras
 =========
 
-This plugins adds extra options for the link_to method.
+This plugin adds extra options for the link_to method.
 
-Currently it just works with icons, and it enables you to handle styling of links with icons in your CSS files.
+At the time, it just works with icons, and it enables you to handle styling of links with icons in your CSS files.
 
 Usage
 =====
@@ -12,18 +12,20 @@ In your views:
 
     link_to 'Edit', edit_path, :icon => :pencil
 
-Results in:
+This is rendered like:
 
     <a href="..." class="icon icon_pencil">Edit</a>
 
 Install
 =======
 
-To install, just add Headliner to your `vendor/plugins` directory:
+To install, run:
 
     script/plugin install git://github.com/carr/link_estras.git
 
-You will need to copy the "icons.css" and "icons" directories from the plugin.
+You will need to copy the "icons.css" file and "images/icons" folder from the plugin into the applications public/ folder.
 
+Author
+======
 
-Copyright (c) 2009 Tomislav Car, released under the MIT license
+Copyright © 2010 Tomislav Car, Infinum
