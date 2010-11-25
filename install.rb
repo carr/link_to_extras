@@ -1,4 +1,4 @@
-require 'ftools'
+require 'ftools' unless defined?(FileUtils)
 puts "Copying images and stylesheets to public/ folder"
 plugin_folder = File.join(RAILS_ROOT, 'vendor', 'plugins', 'link_to_extras')
 
