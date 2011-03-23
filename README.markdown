@@ -21,7 +21,7 @@ Install
 
 To install, run:
 
-    script/plugin install git://github.com/carr/link_extras.git
+    script/plugin install git://github.com/carr/link_to_extras.git
 
 You will need to copy the "icons.css" file and "images/icons" folder from the plugin into the applications public/ folder.
 
